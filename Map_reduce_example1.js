@@ -1,5 +1,5 @@
 
-// #### This is Mapper and Reducer program to calculate total Number of males in each state and add to a collection ##########
+// #### This is Mapper and Reducer program to calculate average of male and female average age and store results to a collection ##########
 
 var mapfun = function() {
 emit(this.gender , this.dob.age);
